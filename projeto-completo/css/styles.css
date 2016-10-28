@@ -6,6 +6,12 @@
     height: 600px;
 }
 
+.bgimage-museu {
+    background-image: url('../images/museu-amanha.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
 
 .color-page{
     background-color: #F1F5F7;
@@ -225,6 +231,34 @@ hr{
     border-top: 1px solid #333;
 }
 
-.redesocial{
-    background-image: url('../images/facebook.png');
+.img-left{
+    align: left;
+    max-width: 700px;
+    max-height: 550px;
+    float:left;
+    margin:10px 20px 10px 10px;
+}
+
+.img-rigth{
+    align: rigth;
+    max-width: 700px;
+    max-height: 550px;
+    float:right;
+    margin:10px 20px 10px 10px;
+}
+
+.txt-rigth{
+    align: rigth;
+    text-align: center;
+    font-size:20px;
+}
+
+.txt-left{
+    align: rigth;
+    text-align: center;
+    font-size:20px;
+}
+
+.txt-titulo{
+    margin:10px 20px 10px 10px;
 }
