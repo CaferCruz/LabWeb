@@ -324,7 +324,7 @@ hr{
     margin-right: auto;
 }
 
-.parallax {
+.parallax-lapa {
     /* The image used */
     background-image: url("../images/lapa-temp.png");
 
@@ -351,4 +351,22 @@ hr{
 #corpo-home, #excursoes, #depoimentos{
   margin-top: 70px;
   margin-bottom: 70px;
+}
+
+.borda{
+    border-radius: 30px;
+}
+
+.parallax-carnaval {
+    /* The image used */
+    background-image: url("../images/carnaval.jpg");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
