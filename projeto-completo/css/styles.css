@@ -13,9 +13,22 @@
     height: 600px;
 }
 
+.bgimage-feiras {
+    background-image: url('../images/feira-temp.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.bgimage-livraria {
+    background-image: url('../images/feira-temp.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
 .color-page{
     background-color: #F1F5F7;
-
 }
 
 .navbar {
@@ -261,4 +274,29 @@ hr{
 
 .txt-titulo{
     margin:10px 20px 10px 10px;
+}
+
+.carrocel{
+    max-width: 700px;
+    max-height: 550px;
+}
+
+.feiras{
+    padding: 3%;
+}
+
+#corpo-feiras{
+    padding: 3%;
+}
+
+#corpo-feiras h2{
+    text-align: center;
+}
+
+#corpo-livraria{
+    padding: 3%;
+}
+
+#corpo-livraria h2{
+    text-align: center;
 }
