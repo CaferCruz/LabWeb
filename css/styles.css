@@ -262,3 +262,8 @@ hr{
 #template{
   margin-bottom: 40px;
 }
+
+.container-museu>div{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
