@@ -139,7 +139,7 @@
 }
 
 #img-excursoes{
-    max-width:220px !important;
+    max-width:20% !important;
 
 }
 
@@ -299,4 +299,16 @@ hr{
 
 #corpo-livraria h2{
     text-align: center;
+}
+
+
+.container-excursoes{
+  width: 85%;
+  overflow: hidden;
+}
+
+
+#corpo-home, #excursoes, #depoimentos{
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
