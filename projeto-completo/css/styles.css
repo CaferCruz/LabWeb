@@ -21,7 +21,21 @@
 }
 
 .bgimage-livraria {
-    background-image: url('../images/feira-temp.jpg');
+    background-image: url('../images/livraria-temp.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.bgimage-biblioteca {
+    background-image: url('../images/biblioteca-temp.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.bgimage-rio-noite {
+    background-image: url('../images/party-temp.jpg');
     background-position: center center;
     background-size: cover;
     height: 600px;
@@ -299,4 +313,30 @@ hr{
 
 #corpo-livraria h2{
     text-align: center;
+}
+
+.tales {
+    width: 100%;
+    height: 200px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/lapa-temp.png");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jum-title{
+    border-radius: 10px;
 }
