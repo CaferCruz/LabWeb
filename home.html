@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+    <div id="template"></div>
+    <div id="corpo-home"></div>
+    <div id="excursoes"></div>
+    <div id="depoimentos"></div>
+    <div id="rodape"></div>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/stickable.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(function() {
+            $("#menu").load("paginas/menu.html");
+            $("#template").load("paginas/template.html");
+            $("#corpo-home").load("paginas/corpo-home.html");
+            $("#excursoes").load("paginas/excursoes.html");
+            $("#depoimentos").load("paginas/depoimentos.html");
+            $("#rodape").load("paginas/rodape.html");
+        });
+    </script>
+</body>
+</html>
