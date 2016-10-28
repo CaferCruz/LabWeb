@@ -120,7 +120,7 @@
 }
 
 #img-excursoes{
-    max-width:220px !important;
+    max-width:20% !important;
 
 }
 
@@ -227,4 +227,15 @@ hr{
 
 .redesocial{
     background-image: url('../images/facebook.png');
+}
+
+.container-excursoes{
+  width: 85%;
+  overflow: hidden;
+}
+
+
+#corpo-home, #excursoes, #depoimentos{
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
