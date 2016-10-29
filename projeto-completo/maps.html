@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Bootstrap</title>
+    <title>Mapas</title>
 </head>
 <body>
 <div id="menu"></div>
-<div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3676.1474253858532!2d-43.3365937!3d-22.8710118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99632989916355%3A0x9c077054b7b677b8!2sR.+Andrade+Figueira+-+Madureira%2C+Rio+de+Janeiro+-+RJ!5e0!3m2!1spt-BR!2sbr!4v1477613177071"
-            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-</div>
+<div id="corpo-maps"></div>
 <div id="rodape"></div>
+
 
 <script src="js/jquery-1.12.4.js"></script>
 <script src="js/bootstrap.js"></script>
 <script>
     $(function () {
         $("#menu").load("paginas/menu.html");
+        $("#corpo-maps").load("paginas/corpo-maps.html");
         $("#rodape").load("paginas/rodape.html");
     });
 </script>

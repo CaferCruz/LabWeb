@@ -350,7 +350,7 @@ hr {
     background-image: url("../images/lapa-temp.png");
 
     /* Set a specific height */
-    min-height: 300px;
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -374,6 +374,7 @@ hr {
 }
 
 .borda {
+    margin-top: 80px;
     border-radius: 30px;
 }
 
@@ -382,7 +383,7 @@ hr {
     background-image: url("../images/carnaval.jpg");
 
     /* Set a specific height */
-    min-height: 300px;
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
