@@ -317,11 +317,16 @@ hr{
 
 
 .tales {
-    width: 100%;
-    height: 200px;
+    width: 50%;
+    height: 100px;
     max-height: 400px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
+}
+
+.carousel-caption>*{
+  color: black;
 }
 
 .parallax-lapa {
@@ -375,4 +380,3 @@ hr{
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
